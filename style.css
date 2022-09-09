@@ -97,7 +97,6 @@ a:hover {
 
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc h1 a,
 .d-bloc h2 a,
@@ -109,13 +108,16 @@ a:hover {
 
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+}
+
+.d-bloc .icon-md{
+    color: #333333;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -247,6 +249,10 @@ a:hover {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+
+    .black-background{
+    padding: 40px 40px 40px 40px;
+    }
 }
 
 .mg-md {
@@ -356,6 +362,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -403,7 +411,6 @@ h1 {
 
 .black-background {
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
@@ -587,5 +594,12 @@ h1 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .portfolio-row{
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }

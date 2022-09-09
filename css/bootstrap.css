@@ -379,6 +379,12 @@ blockquote footer:before {
     }
 }
 
+@media (max-width: 768px){
+    .col-sm-6{
+        margin-top: 50px;
+    }
+}
+
 label {
     display: inline-block;
     max-width: 100%;
