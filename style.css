@@ -558,13 +558,14 @@ h1 {
         -webkit-transform: none;
         -ms-transform: none;
     }
-    .nav > li {
+    .navbar-nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
         padding-left: 15px;
         width: 100%;
+        padding: 5px;
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
