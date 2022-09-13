@@ -23,7 +23,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
 
-	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/jquery-3.6.1.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
@@ -93,8 +93,7 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent."
-							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1">
 							<div class="form-group">
 								<label for="name">
 									Nom
@@ -111,7 +110,7 @@
 								<label for="input_504">
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="text" required id="input_504" />
+								<input class="form-control" type="text" id="input_504" required />
 							</div>
 							<div class="form-group">
 								<label for="message">
